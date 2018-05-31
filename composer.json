@@ -1,0 +1,23 @@
+{
+    "name": "samark/helper",
+    "description": "For curl helper easy to use.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Samark Chaisanguan",
+            "email": "samarkchsngn@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support" : ">=5.3.0",
+        "guzzlehttp/guzzle" : ">=5.0.0"
+    },
+    "autoload": {
+        "files": [
+            "src/Helper/curl.php"
+        ]
+    }
+}
